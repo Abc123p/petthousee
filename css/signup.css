@@ -1,0 +1,100 @@
+body{
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+#main{
+    width: 100%;
+    padding:0;
+    margin-left: auto;
+    margin-right: auto;
+    margin: 0 auto;
+}
+.follow{
+    height: 50px;
+    background-color: black;
+    width: 100%;
+}
+.follow ul li{
+    display: inline-block;
+    position: relative;
+    top: 20px;
+    left: 700px;
+}
+.follow ul li h4{
+    color: white;
+    text-align: left;
+}
+.follow ul li a{
+    color: white;
+}
+#header{
+    height: 100px;
+    background-color: #0693e3;
+    width:100%;
+    line-height: 100px;
+    text-align: center;
+    margin-bottom: 5px;
+}
+img{
+    height: 100px;
+    width: 100px;
+    float: left;
+}
+#header ul li{
+    list-style: none;
+    display: inline-block;
+}
+#header ul li a{
+    color: white;
+    padding: 30px 65px;
+    font-size: 20px;
+    text-decoration: none;
+    animation: doimau 1s infinite;
+    font-weight: bold;
+}
+#header ul li a:hover{
+    background-color:#8ed1fc;
+    font-size: 25px;
+}
+@keyframes doimau{
+    from{
+        color: white;
+    }
+    to{
+        color: black;
+    }
+}
+.register h1,label{
+    color: #2891FF;
+    padding-top:40px;
+    text-align: center;
+}
+.register p{
+    text-align: center;
+    font-weight: bold;
+    font-size: 16px;
+}
+.register label{
+    font-weight: bold;
+    font-size: 20px;
+}
+.sign-up{
+    width: 100%;
+    border: none;
+    height: 40px;
+    border-radius: 15px;
+    color:white;
+    font-weight: bold;
+    background-color:#0000FF;
+    font-size: 16px;
+    box-shadow: 5px 0px 0px 5px #0000FF;
+    cursor: pointer;
+}
+.social{
+    cursor: pointer;
+}
+
